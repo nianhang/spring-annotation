@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc8b12b1-067b-4716-b37e-403a6809005d" name="Default Changelist" comment="" />
+    <list default="true" id="fc8b12b1-067b-4716-b37e-403a6809005d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/test/IOCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/config/MainConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,13 +36,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1clqwqeJWOA05IX8V2nrAtdDoLD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -29,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IOCTest.test1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linfd.Main" />
       <module name="spring-annotation" />
@@ -43,8 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOCTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linfd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linfd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IOCTest.test1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -59,11 +109,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591113768699</updated>
-      <workItem from="1591113774328" duration="836000" />
+      <workItem from="1591113774328" duration="1285000" />
+      <workItem from="1591115101200" duration="756000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1867" height="186" key="GridCell.Tab.0.bottom" timestamp="1591115624770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115624770" />
+    <state width="1867" height="186" key="GridCell.Tab.0.center" timestamp="1591115624770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="186" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115624770" />
+    <state width="1867" height="186" key="GridCell.Tab.0.left" timestamp="1591115624769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="186" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115624769" />
+    <state width="1867" height="186" key="GridCell.Tab.0.right" timestamp="1591115624770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="186" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115624770" />
+    <state x="582" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591115557036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115557036" />
+    <state x="86" y="0" key="new project wizard" timestamp="1591114893734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="86" y="0" key="new project wizard/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591114893734" />
   </component>
 </project>
