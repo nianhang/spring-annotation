@@ -3,6 +3,7 @@ package com.linfd.bean;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 
 /**
  * bean的生命周期：
@@ -56,6 +57,7 @@ import org.springframework.context.ApplicationContextAware;
  *
  */
 
+@Component
 public class Car {
 
     public Car(){

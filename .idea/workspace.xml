@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8b12b1-067b-4716-b37e-403a6809005d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/bean/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/bean/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/bean/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/config/MainConfigOfLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linfd/test/IOCTestLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/person.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/config/MainConfigOfAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/config/MainConfigOfProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/config/MainConfigOfPropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/test/IOCTestAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/test/IOCTestProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linfd/test/IOCTestPropertyValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-annotation/com/linfd/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/bean/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/bean/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/bean/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/bean/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/bean/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linfd/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linfd/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +77,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learning-spring-boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\spring-annotation\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linfd.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\spring-annotation\lib" />
       <recent name="D:\workspace\spring-annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IOCTestLifeCycle.test01">
+  <component name="RunManager" selected="JUnit.IOCTestProfile.test01">
+    <configuration name="IOCTestAutowired.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linfd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linfd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTestAutowired" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOCTestLifeCycle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
@@ -87,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOCTestProfile.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
@@ -96,42 +137,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.linfd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linfd.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.linfd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linfd.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.linfd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTestProfile" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTestPropertyValue.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linfd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linfd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.linfd.test.IOCTestPropertyValue" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IOCTest.test1" />
-      <item itemvalue="JUnit.IOCTest.test2" />
-      <item itemvalue="JUnit.IOCTest.test3" />
       <item itemvalue="JUnit.IOCTest.testImport" />
       <item itemvalue="JUnit.IOCTestLifeCycle.test01" />
+      <item itemvalue="JUnit.IOCTestPropertyValue.test01" />
+      <item itemvalue="JUnit.IOCTestAutowired.test01" />
+      <item itemvalue="JUnit.IOCTestProfile.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IOCTestProfile.test01" />
+        <item itemvalue="JUnit.IOCTestAutowired.test01" />
+        <item itemvalue="JUnit.IOCTestPropertyValue.test01" />
         <item itemvalue="JUnit.IOCTestLifeCycle.test01" />
         <item itemvalue="JUnit.IOCTest.testImport" />
-        <item itemvalue="JUnit.IOCTest.test3" />
-        <item itemvalue="JUnit.IOCTest.test2" />
-        <item itemvalue="JUnit.IOCTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -183,62 +208,74 @@
       <workItem from="1591115101200" duration="4282000" />
       <workItem from="1591505672725" duration="689000" />
       <workItem from="1591623968339" duration="10221000" />
-      <workItem from="1592103447529" duration="7937000" />
+      <workItem from="1592103447529" duration="23836000" />
     </task>
+    <task id="LOCAL-00001" summary="Bean的生命周期">
+      <created>1592152842987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592152842987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bean的生命周期" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean的生命周期" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="167" width="1229" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591629332533">
+    <state x="414" y="167" width="1229" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592403727258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="167" width="1229" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591629332533" />
-    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1592152609265">
+    <state x="414" y="167" width="1229" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592403727258" />
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1592402155982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152609265" />
-    <state x="452" y="40" key="CommitChangelistDialog2" timestamp="1592152809615">
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592402155982" />
+    <state x="452" y="40" key="CommitChangelistDialog2" timestamp="1592152841957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="40" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152809615" />
-    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1591719285465">
+    <state x="452" y="40" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152841957" />
+    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1592235408462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591719285465" />
-    <state width="1867" height="677" key="GridCell.Tab.0.bottom" timestamp="1592152659863">
+    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592235408462" />
+    <state width="1867" height="306" key="GridCell.Tab.0.bottom" timestamp="1592404065000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="677" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152659863" />
-    <state width="1867" height="677" key="GridCell.Tab.0.center" timestamp="1592152659863">
+    <state width="1867" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592404065000" />
+    <state width="1867" height="306" key="GridCell.Tab.0.center" timestamp="1592404065000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="677" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152659863" />
-    <state width="1867" height="677" key="GridCell.Tab.0.left" timestamp="1592152659863">
+    <state width="1867" height="306" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592404065000" />
+    <state width="1867" height="306" key="GridCell.Tab.0.left" timestamp="1592404065000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="677" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152659863" />
-    <state width="1867" height="677" key="GridCell.Tab.0.right" timestamp="1592152659863">
+    <state width="1867" height="306" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592404065000" />
+    <state width="1867" height="306" key="GridCell.Tab.0.right" timestamp="1592404065000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="677" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152659863" />
-    <state width="1867" height="459" key="GridCell.Tab.1.bottom" timestamp="1592150622767">
+    <state width="1867" height="306" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592404065000" />
+    <state width="1867" height="459" key="GridCell.Tab.1.bottom" timestamp="1592236549059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="459" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592150622767" />
-    <state width="1867" height="459" key="GridCell.Tab.1.center" timestamp="1592150622767">
+    <state width="1867" height="459" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592236549059" />
+    <state width="1867" height="459" key="GridCell.Tab.1.center" timestamp="1592236549058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="459" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592150622767" />
-    <state width="1867" height="459" key="GridCell.Tab.1.left" timestamp="1592150622767">
+    <state width="1867" height="459" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592236549058" />
+    <state width="1867" height="459" key="GridCell.Tab.1.left" timestamp="1592236549058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="459" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592150622767" />
-    <state width="1867" height="459" key="GridCell.Tab.1.right" timestamp="1592150622767">
+    <state width="1867" height="459" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592236549058" />
+    <state width="1867" height="459" key="GridCell.Tab.1.right" timestamp="1592236549058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="459" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592150622767" />
+    <state width="1867" height="459" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592236549058" />
     <state x="330" y="0" key="SettingsEditor" timestamp="1591626238968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591115557036" />
-    <state x="692" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592152779367">
+    <state x="692" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592404085827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592152779367" />
+    <state x="692" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1592404085827" />
     <state x="86" y="0" key="new project wizard" timestamp="1591114893734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

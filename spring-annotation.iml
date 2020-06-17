@@ -23,5 +23,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="javax.inject-1" level="project" />
+    <orderEntry type="library" name="c3p0-0.9.2" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.44" level="project" />
+    <orderEntry type="library" name="mchange-commons-java-0.2.3.4" level="project" />
   </component>
 </module>
